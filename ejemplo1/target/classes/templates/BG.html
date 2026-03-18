@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda de juegos</title>
+</head>
+<body>
+<h1>pagina de juegos</h1>
+<p th:text="${game.getNombre()}"> </p>
+<img th:src="${game.getFoto()}" th:alt="${game.getNombre()}">
+
+</body>
+</html>
